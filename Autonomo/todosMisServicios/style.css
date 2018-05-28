@@ -1,0 +1,57 @@
+h1{
+text-align : center;
+font-size : 40pt;
+
+	
+
+}
+header {
+background-image : url('http://metromidsayap-water.gov.ph/wp-content/uploads/2016/11/Header-Background.jpg');
+color : orange;
+font-family : Verdana;
+height : 120px
+
+}
+.fila1{
+display : inline-block;
+margin : 12px;
+}
+p.fila1{
+width: 60%;
+
+}
+
+nav {
+	background-color: rgb(80, 80, 70);
+	border-color:  rgb(80, 200, 70);
+	border: 3px dotted black;
+}
+
+li:hover {
+  background: #FF5733;
+}
+
+li:active {
+    background-color: white;
+    font-weight: bold;
+}
+
+footer {
+	border-color:  rgb(80, 200, 70);
+	border: 3px dotted black;
+	height: 160px;
+}
+p.foot{
+	width: 60%;
+	
+	position:relative
+	text: justify;
+}
+.foot{
+	display : inline-block;
+} 
+img.foot{
+	width: 30%;
+	float: right;
+	height: 160px;
+}
