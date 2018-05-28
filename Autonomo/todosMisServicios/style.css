@@ -21,4 +21,25 @@ width: 60%;
 
 }
 
+.container{
+display:inline-block;
+margin : 12px;
+
+}
+
+
+aside{
+width : 20%;
+}
+section{
+width : 80%;
+ right: 300px;
+float: right;
+
+}
+
+.bod {
+display: inline-block;
+}
+
 
