@@ -21,6 +21,7 @@ width: 60%;
 
 }
 
+
 nav {
 	background-color: rgb(80, 80, 70);
 	border-color:  rgb(80, 200, 70);
@@ -35,6 +36,29 @@ li:active {
     background-color: white;
     font-weight: bold;
 }
+
+.container{
+display:inline-block;
+margin : 12px;
+
+}
+
+
+aside{
+width : 20%;
+}
+section{
+width : 80%;
+ right: 300px;
+float: right;
+
+}
+
+.bod {
+display: inline-block;
+}
+
+
 
 footer {
 	border-color:  rgb(80, 200, 70);
