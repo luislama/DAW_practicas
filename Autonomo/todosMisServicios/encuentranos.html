@@ -1,97 +1,220 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<meta charset="UTF-8">
-		<title>TodosMisServicios</title>
+		<meta charset="utf-8">
+		<meta name="Author" content="Sunjing Lama">
+		<title>TodosMisServicios - Encuentranos</title>
 	</head>
 	<body>
 		<header>
-			<h1>TodosMiServicios.ec</h1>
+			<h1>TodosMisServicios.ec</h1>
 		</header>
+		<hr>
 		<nav>
-				<button>Principal</button>
-				<button>Quienes somos?</button>
-				<button>Personal</button>
-				<button>Encuentranos</button>
-			<hr>
-		</nav>
-
-		<aside>
-			<h2>Como usar nuestro sitio?</h2>
 			<table>
 				<tr>
-					<th>
-						<img src="img_reproductor_default.jpg" alt="reproductor">
-					</th>
+					<td>Principal</td>
+					<td>Quienes somos?</td>
+					<td>Personal</td>
+					<td>Encuentranos</td>
+				</tr>	
+			</table>
+		</nav>
+		<hr>
+		<aside>
+			<table>
+				<tr>
+					<td>
+						<label>Como usar nuestro sitio?</label>
+					</td>
 				</tr>
 				<tr>
-					<th>
-						<img src="quienessomos_aside02.png" alt="Twitts">
-					</th>
+					<td><img src="img/aside_webvideo.png" alt="video tutorial"></td>
+				</tr>
+				<tr>
+					<td>
+						<label>Stream</label>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="img/aside_twits.png" alt="stream de twitter"></td>
 				</tr>
 			</table>
 		</aside>
+		<hr>
 		<section>
+			<h2>Envianos tus opiniones</h2>
+			-------------------
 			<table>
-<tr><td colspan="2">Envianos tus Opiniones</td></tr>
-<tr><td> Nombre<br></td>
-<td> <input type="text" value=""></td>
-</tr>
-<tr><td > Correo Electronico <br></td>
-<th> <input type="text" value=""></th></tr>
-</table>
-<table>
-		<tr>
-		<th> Utilidad del Sitio<br></th>
-    <th><input type="radio" name="gender" value="Nada"> Nada<br></th>
-    <th><input type="radio" name="gender" value="Muy Poco"> MuyPoco<br></th>
-    <th><input type="radio" name="gender" value="Algo"> Algo<br></th>
-    <th> <input type="radio" name="gender" value="Muy"> Muy<br></th>
-    <th> <input type="radio" name="gender" value="Completamente"> Completamente<br></th>
-  </tr>
-</table>
-<table>
-  <tr><th> Edad<br></th>
-				<th> <input type="number"></th>
-</tr>
-<tr><th> Provincia<br></th>
-				<th>
-				<select name="cars">
-    <option value="volvo">Azuay</option>
-    <option value="saab">Guayas</option>
-    <option value="fiat">Pichincha</option>
-    <option value="audi">Pastaza</option>
-  </select>
-				</th>
-
-			<tr>
-			<th> Comentarios<br></th>
-			<th> <textarea rows="4" cols="50"></textarea></th>
-
-			<tr>
-
-			<th><input type="checkbox"> bla bla <br></th>
-			<th></th>
-			</tr>
-			<tr>
-			<th><button type="button">Guardar!</button></th>
-			<th> </th>
-			</tr>
+				<tr>
+					<td>
+						<label>Nombres Completos</label>
+					</td>
+					<td><input type="text" name="nombre"></td>
+				</tr>
+				<tr>
+					<td>
+						<label>Correo Electronico</label>
+					</td>
+					<td><input type="text" name="email"></td>
+				</tr>
+				<tr>
+					<td>
+						<label> Utilidad del sitio</label>
+					</td>
+					<td>
+						<table>
+							<tr>
+								<td>
+									<input type="radio" name="utilidad">
+									<label>Nada</label>
+								</td>
+								<td>
+									<input type="radio" name="utilidad">
+									<label>Poco</label>
+								</td>
+								<td>
+									<input type="radio" name="utilidad">
+									<label>Algo</label>
+								</td>
+								<td>
+									<input type="radio" name="utilidad">
+									<label>Muy</label>
+								</td>
+								<td>
+									<input type="radio" name="utilidad">
+									<label>Completamente</label>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Edad</label>
+					</td>
+					<td>
+						<input type="number" name="edad" min="0" max="100">
+						<label>anios</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Provincia</label>
+					</td>
+					<td>
+						<select name="text">
+							<option>Azuay</option>
+							<option>Bolivar</option>
+							<option>Caniar</option>
+							<option>Carchi</option>
+							<option>Chimborazo</option>
+							<option>Cotopaxi</option>
+							<option>Esmeraldas</option>
+							<option>Guayas</option>
+							<option>Imbabura</option>
+							<option>Loja</option>
+							<option>Los Rios</option>
+							<option>Manabi</option>
+							<option>Morona Santiago</option>
+							<option>Napo</option>
+							<option>Orellana</option>
+							<option>El Oro</option>
+							<option>Pastaza</option>
+							<option>Pichincha</option>
+							<option>Santa Elena</option>
+							<option>Santo Domingo de los Tsachilas</option>
+							<option>Tungurahua</option>
+							<option>Zamora Chinchipe</option>
+						</select>
+					</td>
+				</tr>
 			</table>
-			<h3>Datos Personales</h3>
-				<ul>
-					<li>SRI</li>
-					<li>Telefonia Movil</li>
-					<li>Telefonia Fija</li>
-					<li>Cable</li>
-					<li>Pensiones Alimenticias</li>
-				</ul>
+			<table>
+				<tr>
+					<td>
+						<label>Comentarios</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<textarea cols="50" rows="4"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="suscribirme" checked="">
+						<label>Deseo suscribirme para recibir noticias</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button>Enviar</button>
+					</td>
+				</tr>
+			
+			</table>			
+			-------------------
+			<form method="post">
+				<label for="POST-name">Nombres Completos</label><input id="POST-name" type="text" name="nombre">
+				<br>
+				<label>Correo Electronico</label><input type="text" name="email">
+				<br>
+				<label> Utilidad del sitio</label>
+				<input type="radio" name="utilidad"><label>Nada</label>
+				<input type="radio" name="utilidad"><label>Poco</label>
+				<input type="radio" name="utilidad"><label>Algo</label>
+				<input type="radio" name="utilidad"><label>Muy</label>
+				<input type="radio" name="utilidad"><label>Completamente</label>
+				<br>
+				<label>Edad</label><input type="number" name="edad" min="0" max="100"><label>anios</label>
+				<br>
+				<label>Provincia</label>
+				<select name="text">
+					<option>Azuay</option>
+					<option>Bolivar</option>
+					<option>Caniar</option>
+					<option>Carchi</option>
+					<option>Chimborazo</option>
+					<option>Cotopaxi</option>
+					<option>Esmeraldas</option>
+					<option>Guayas</option>
+					<option>Imbabura</option>
+					<option>Loja</option>
+					<option>Los Rios</option>
+					<option>Manabi</option>
+					<option>Morona Santiago</option>
+					<option>Napo</option>
+					<option>Orellana</option>
+					<option>El Oro</option>
+					<option>Pastaza</option>
+					<option>Pichincha</option>
+					<option>Santa Elena</option>
+					<option>Santo Domingo de los Tsachilas</option>
+					<option>Tungurahua</option>
+					<option>Zamora Chinchipe</option>
+				</select>
+				<br>
+				<label>Comentarios</label>
+				<br>
+				<textarea cols="50" rows="4"></textarea>
+				<br>
+				<input type="checkbox" name="suscribirme" checked=""><label>Deseo suscribirme para recibir noticias</label>
+				<br>
+				<button>Enviar</button>
+			</form>
 		</section>
+		<hr>
 		<footer>
-			<br>
-			<br>
-				El contenido de esta obra es de propiedad intelecual de nuestro grupo.
+			<table>
+				<tr>
+					<td>
+						<label>El contenido de esta obra es de prioridad intelectual de nuestro grupo. Todos los derechos reservados. Prohibida su reproduccion total, parcial, comunicacion publica o distribucion sin autorizacion previa del titular de los derechos.
+						</label>
+					</td>
+					<td><img src="img/defaultIMG.png" alt="imagen del footer"></td>			
+				</tr>
+			</table>
 		</footer>
 	</body>
-
 </html>
