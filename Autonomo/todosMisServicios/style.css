@@ -1,0 +1,24 @@
+h1{
+text-align : center;
+font-size : 40pt;
+
+	
+
+}
+header {
+background-image : url('http://metromidsayap-water.gov.ph/wp-content/uploads/2016/11/Header-Background.jpg');
+color : orange;
+font-family : Verdana;
+height : 120px
+
+}
+.fila1{
+display : inline-block;
+margin : 12px;
+}
+p.fila1{
+width: 60%;
+
+}
+
+
