@@ -6,12 +6,14 @@ font-size : 40pt;
 
 }
 header {
-background-image : url('http://metromidsayap-water.gov.ph/wp-content/uploads/2016/11/Header-Background.jpg');
-color : orange;
+
+background-image : url('https://www.jetchill.com/wp-content/uploads/2017/05/blog-header-background.jpg');
+color : darkorange;
 font-family : Verdana;
-height : 120px
+height : 70px;
 
 }
+
 .fila1{
 display : inline-block;
 margin : 12px;
@@ -21,18 +23,38 @@ width: 60%;
 
 }
 
-
-nav {
-	background-color: rgb(80, 80, 70);
-	border-color:  rgb(80, 200, 70);
-	border: 3px dotted black;
+nav{
+	text-align: center;
+	width: 100%;
 }
 
-li:hover {
-  background: #FF5733;
+ul.ul_nav{
+	padding: 4px 6px 4px;
+	margin-top: 5px;
+}		
+
+li.li_nav{
+	list-style: none;
+
+	background-color: rgb(113, 203, 182);
+	border: 2px gray;
+	border-style: solid;
+	
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 140px;
+	display: inline-block;
+	
+	padding: 2px;
+	text-align: center;
 }
 
-li:active {
+li.li_nav:hover {
+  background: #B1DFCD;
+}
+
+li.li_nav:active {
     background-color: white;
     font-weight: bold;
 }
@@ -61,12 +83,14 @@ display: inline-block;
 
 
 footer {
-	border-color:  rgb(80, 200, 70);
-	border: 3px dotted black;
+	border: 2px gray;
+	border-style: solid;
 	height: 160px;
+	width: 100%;
+	padding: 3px 2% 3px;
 }
 p.foot{
-	width: 60%;
+	width: 50%;
 	
 	position:relative
 	text: justify;
